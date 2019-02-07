@@ -1,0 +1,14 @@
+Stefan Emmons
+COSC 2030-01
+Lab 01
+Dr. Hill, or Pedro Marquez
+2-6-2019
+
+As seen in the RLE section of this lab, a good way to strip whitespace from a string vector is to use the ".substr" function, along with specifying what constitutes whitespace in your documents.
+This was done by creating a separate string variable, and actually defining "whitespace" characters/expressions.
+If we want to concern ourselves with removing whitespace from regular strings, a good way to go about this is to use the "algorithm" header file, along with the "remove" and "erase" functions.
+This can be done in a form that is similar to this example:
+Say you have a string variable with information, this variable is called userString. You want to remove whitespace from this string:
+std::string::iterator endPosition = remove(userString.begin(), userString.end(), " " || whatever whitespace characters you want removed);
+userString.erase(endPosition, userString.end());
+There are many other ways of removing whitespace, but I find this to be the easiest and most efficient for most of my programming purposes. This is also one of the quickest ways to remove whitespace, if speed is a big issue for you.
