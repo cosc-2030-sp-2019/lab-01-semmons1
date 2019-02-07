@@ -1,10 +1,10 @@
 # lab-01-semmons1
-lab-01-semmons1 created by GitHub Classroom
-Stefan Emmons
-COSC 2030-01
-Lab 01
-Dr. Hill, or Pedro Marquez
-2-6-2019
+lab-01-semmons1 created by GitHub Classroom <br />
+Stefan Emmons <br />
+COSC 2030-01 <br />
+Lab 01 <br />
+Dr. Hill, or Pedro Marquez <br />
+2-6-2019 <br />
 UPDATE:
 I made sure to heavily comment on just about every process I could in both .cpp files for this lab. If anyone has any questions, please 
 look over those comments, or just ask me. I put a fair amount of effort into this lab, so I should be able to explain concepts relatively
