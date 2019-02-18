@@ -5,10 +5,7 @@ COSC 2030-01 <br />
 Lab 01 <br />
 Dr. Hill, or Pedro Marquez <br />
 2-6-2019 <br />
-UPDATE: <br />
-I need to edit these answers a little more, will do after current lab
-Personal Note: 0000 is black in RGB format, make note of that <br /> 
-<br />
+
 Statement of help: <br />
 I received a small amount of help from online forums such as "cplusplus.com" whenever I had a question about a specific function, such as the subtract whitespace function. <br />
 I also used the textbook for this class, and an academic article written by the University of Alberta for BMP file information. <br /> 
