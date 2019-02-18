@@ -6,6 +6,8 @@ Lab 01 <br />
 Dr. Hill, or Pedro Marquez <br />
 2-6-2019 <br />
 UPDATE: <br />
+I need to edit these answers a little more, will do after current lab
+Personal Note: 0000 is black in RGB format, make note of that 
 I made sure to heavily comment on just about every process I could in both .cpp files for this lab. If anyone has any questions, please 
 look over those comments, or just ask me. I put a fair amount of effort into this lab, so I should be able to explain concepts relatively
 clearly. <br /> 
