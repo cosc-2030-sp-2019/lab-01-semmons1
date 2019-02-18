@@ -47,14 +47,15 @@ int main()
 			// 1. Write flag character and repeated pixel.  Strip pesky newline at end.
 			//A helpful constant for me is the physical word "FLAG". It's easier on my eyes and stands out against the blur
 			//of hexidecimal characters.
-			pixf_cmpr << "FLAG" << pix_list[i].substr(0, pix_list[i].find_last_not_of(whitespace));
+			pixf_cmpr << "FLAG" << pix_list[i].substr(0, pix_list[i].find_last_not_of(whitespace)+1);
 			// 5. (Explain loop below.)
 			//The while loop below has the job of counting how many consecutive pixels formats are repeated in the text document before
 			//having a new hexidecimal format appear. For example, we can see that the format "ffc0c0c0" appears a lot, 647 times to be exact 
 			//and that's just in the beginning of the document. This is a very simple form of RLE encoding. It saves a ton of space by condensing
 			//specific formats and patterns. One thing to note is that it would appear the whitespace elimination process chops off
 			//any "0" that may appear at the end of these formats. I could not find a way to improve this flagging process, and while it's
-			//not a huge deal, it's an important note to make. 
+			//not a huge deal, it's an important note to make.
+			//This issue has been fixed.
 			count = 1;
 			while (i < n - 1 && pix_list[i] == pix_list[i + 1])
 			{
