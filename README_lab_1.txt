@@ -9,6 +9,6 @@ I also used the textbook for this class, and an academic article written by the 
 
 As noted in the lab, "...This is a very simple form of RLE encoding. It saves a ton of space by condensing specific formats and patterns. One thing to note is that it would appear the whitespace elimination process chops off
 any "0" that may appear at the end of these formats. I could not find a way to improve this flagging process, and while it's not a huge deal, it's an important note to make."
-Because of the hexadecimal structure of this Bitmap file, a four-byte zero "padded" structure is possible and fairly common. This padding is usually seen towards the end of a hexadecimal structure.
+Because of the hexadecimal structure of this Bitmap file, a four-byte zero could be misconstrued as an RGB format. In fact, a four byte zero structure is a format for the black pixel structure. It is a possibility to use this format as a flag, but it is not a good idea. 
 A good way to adjust for this "padding" is by using the same "check for a flag 0" function at the end of each hexadecimal structure, and seeing if it is divisible by four. This can be achieved by using an
 if statements, and a modulus operator.  
